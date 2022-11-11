@@ -2,7 +2,6 @@
 // Fill in the rest of the line that has code missing!
 // No hints, there's no tricks, just get used to typing these :)
 
-// I AM NOT DONE
 
 fn main() {
     // Characters (`char`)
@@ -18,7 +17,9 @@ fn main() {
         println!("Neither alphabetic nor numeric!");
     }
 
-    let // Finish this line like the example! What's your favorite character?
+    let your_character = 'N';
+    // 第一次使用双引号发生错误，报&str没有is_alphabetic()和is_numberic()方法错误。
+    // Finish this line like the example! What's your favorite character?
     // Try a letter, try a number, try a special character, try a character
     // from a different language than your own, try an emoji!
     if your_character.is_alphabetic() {
